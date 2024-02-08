@@ -39,28 +39,28 @@ VaveLink is a versatile web application built on WebRTC, Socket.IO, and Agora SD
    [Visite the Module here](https://mhasiemmalik.github.io/Vavelink-VoiceRooms/)
 
 ## Features
-#### High flexibility and privacy:
+1} **High flexibility and privacy:**
 Users can enjoy a versatile platform with four modules catering to various communication needs. Privacy is maintained throughout interactions.
 
-#### Seamless communication without installation:
+2} **Seamless communication without installation:**
 Access the platform effortlessly from any electronic device with a browser and internet connection. No need for cumbersome installations or downloads.
 
-#### High-quality video, voice, and messaging: 
+3} **High-quality video, voice, and messaging:** 
 Experience top-notch audio and video quality during calls, along with crisp and clear messaging capabilities. Enjoy uninterrupted communication without compromising on quality.
 
-#### Anonymous communication: 
+4} **Anonymous communication:** 
 Users can engage in communication anonymously, without the need for personal credentials such as mobile numbers or email addresses.
 
-#### Simple room creation and access: 
+5} **Simple room creation and access:** 
 Easily create and join rooms for different communication purposes. Enter room IDs effortlessly and start communicating instantly.
 
-#### Versatility across devices and continents: 
+6} **Versatility across devices and continents:** 
 Access the platform from any type of electronic device, regardless of geographical location. Enjoy seamless communication across the globe, ensuring connectivity no matter where users are located.
 
-#### One-on-one video calls, one-to-many voice messages, and group conferences: 
+7} **One-on-one video calls, one-to-many voice messages, and group conferences:** 
 Engage in various forms of communication, including one-on-one video calls, one-to-many voice messages, and group conferences. These features are highly efficient, echo-free, and work seamlessly across all platforms.
 
-#### Crisp and clear homepage: 
+8} **Crisp and clear homepage:** 
 The homepage is designed to be crisp, clear, and easy to understand. It provides great flexibility, compatibility, and modularity, ensuring a seamless user experience across various screen sizes and device-to-device screen ratios.
 
 ![VoiceChatRooms Screenshot 1](./ss/Vavelink%20homepage.png)

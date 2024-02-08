@@ -11,7 +11,7 @@ VaveLink is a versatile web application built on WebRTC, Socket.IO, and Agora SD
     The VaveLink VideoChatRooms module focuses on direct video call features using Agora SDK and WebRTC. Users can create a room and join a video call without entering any details. This communication is seamless and works across various platforms, including PC-to-PC, mobile-to-mobile, and mobile-to-PC. Only two people can communicate with each other at max.
 
     ![VideoChatRooms Screenshot 1](./ss/Vavelink%20Video%20chat.png)
-    ![VideoChatRooms Screenshot 2](./ss/Vavelink%20Voice%20mobile%20ss.png)
+    ![VideoChatRooms Screenshot 2](./ss/Vavelink%20Video%20on%20Mobile%20ss.png)
 
 2. **VaveLink MessageRooms**
 

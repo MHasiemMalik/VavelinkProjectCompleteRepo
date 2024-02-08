@@ -1,5 +1,5 @@
 # VaveLink
-Visite the site here : [VaveLink Website](#)
+Visite the site here : [VaveLink Website](https://mhasiemmalik.github.io/VavelinkHomeRepo/)
 ## Description
 
 VaveLink is a versatile web application built on WebRTC, Socket.IO, and Agora SDK, offering seamless communication via video, voice, or messages. With a focus on flexibility, privacy, and quality, VaveLink simplifies communication by enabling users to create rooms and connect with others without the need for mobile numbers, email addresses, or credentials. Users can directly enter a room name, whether created by themselves or others, and initiate communication instantly within their browser and network on a single electronic device.
@@ -9,7 +9,7 @@ VaveLink is a versatile web application built on WebRTC, Socket.IO, and Agora SD
 1. **VaveLink VideoChatRooms**
 
     The VaveLink VideoChatRooms module focuses on direct video call features using Agora SDK and WebRTC. Users can create a room and join a video call without entering any details. This communication is seamless and works across various platforms, including PC-to-PC, mobile-to-mobile, and mobile-to-PC. Only two people can communicate with each other at max.
-
+    [Visite the Module here](https://mhasiemmalik.github.io/VaveLink001/)
     ![VideoChatRooms Screenshot 1](./ss/Vavelink%20Video%20chat.png)
     ![VideoChatRooms Screenshot 2](./ss/Vavelink%20Video%20on%20Mobile%20ss.png)
 
@@ -24,14 +24,14 @@ VaveLink is a versatile web application built on WebRTC, Socket.IO, and Agora SD
 3. **VaveLink GroupMeets**
 
     The VaveLink GroupMeets module focuses on video conferencing, chat, and screen sharing abilities. It allows two or more people to conduct meetings or conferences without any validations or verifications. Users can directly enter their name and room ID to join the conference with mic, video, and screen toggle options. Designed by Agora SDK files like Agora RTM and RTC, the module ensures seamless communication.
-
+     [Visite the Module here](https://mhasiemmalik.github.io/VaveLink-GroupMeets/)
     ![GroupMeets Screenshot 1](./ss/Vavelink%20groupmeets.png)
     ![GroupMeets Screenshot 2](./ss/Vavelink%20Groupmeets%20mobile%20ss.png)
 
 4. **VaveLink VoiceChatRooms**
 
     The VaveLink VoiceChatRooms module enables highly efficient voice communication among one-to-many people. Users can enter their name and room number to create or join existing rooms. The module supports full audio clarity without any echo, with mic toggle options which is also build on Agora RTM and STC SDK failes which help in signaling.
-
+     [Visite the Module here](https://mhasiemmalik.github.io/Vavelink-VoiceRooms/)
     ![VoiceChatRooms Screenshot 1](./ss/Vavelink%20Voice%20ss.png)
     ![VoiceChatRooms Screenshot 2](./ss/Vavelink%20Voice%20mobile%20ss.png)
 

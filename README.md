@@ -71,7 +71,7 @@ The homepage is designed to be crisp, clear, and easy to understand. It provides
 
 ## Usage
 
-Visit [VaveLink Website](#) to start using VaveLink immediately. Choose your preferred module and enter a room name to begin communication.
+Visit [VaveLink Website](https://mhasiemmalik.github.io/VavelinkHomeRepo/) to start using VaveLink immediately. Choose your preferred module and enter a room name to begin communication.
 
 ## Contributing
 

@@ -1,5 +1,4 @@
 # VaveLink
-<<<<<<< HEAD
 Visite the site here : [VaveLink Website](#)
 ## Description
 
@@ -9,14 +8,13 @@ Visite the site here : [VaveLink Website](https://mhasiemmalik.github.io/Vavelin
 ## Description
 
 VaveLink is a versatile web application built on WebRTC, Socket.IO, and Agora SDK, offering seamless communication via video, voice, and messages. With a focus on flexibility, privacy, and quality, VaveLink simplifies communication by enabling users to create rooms and connect with others without the need of mobile numbers, email addresses, or credentials. Users can directly enter a room name, whether created by themselves or others, and initiate communication instantly within their browser and network on a single electronic device.
->>>>>>> VaveLinkMain
 
 ### Modules
 
 1. **VaveLink VideoChatRooms**
 
     The VaveLink VideoChatRooms module focuses on direct video call features using Agora SDK and WebRTC. Users can create a room and join a video call without entering any details. This communication is seamless and works across various platforms, including PC-to-PC, mobile-to-mobile, and mobile-to-PC. Only two people can communicate with each other at max.
-<<<<<<< HEAD
+
 
     ![VideoChatRooms Screenshot 1](/path/to/video_chat_screenshot1.png)
     ![VideoChatRooms Screenshot 2](/path/to/video_chat_screenshot2.png)

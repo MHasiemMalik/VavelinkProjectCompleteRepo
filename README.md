@@ -54,7 +54,7 @@ Users can engage in communication anonymously, without the need for personal cre
 5} **Simple room creation and access:** 
 Easily create and join rooms for different communication purposes. Enter room IDs effortlessly and start communicating instantly.
 
-6} **Versatility across devices and continents:** 
+6} **Versatility across devices:** 
 Access the platform from any type of electronic device, regardless of geographical location. Enjoy seamless communication across the globe, ensuring connectivity no matter where users are located.
 
 7} **One-on-one video calls, one-to-many voice messages, and group conferences:** 

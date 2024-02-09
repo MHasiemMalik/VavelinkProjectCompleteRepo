@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+			integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="public/css/style.css" />
+		<link rel="icon" href="public/Videos/Vavelinkicon1.jpeg">
+		<title>VaveLink ChatRooms</title>
+		<style>
+			#Title {
+               height: 130px;
+               width: 100%;
+               opacity: 0.8; /* Set the opacity for transparency */
+               transition: opacity 0.5s ease; /* Add a smooth transition effect */
+             }
+#ct{
+   position: fixed;
+   bottom: 10px;
+   right: 10px;
+   z-index: 9999;
+   font-size: 20px;
+   font-family: 'Averia Sans Libre', sans-serif;
+   color: #effb06;
+   opacity: 0.6;
+ }
+
+ @media only screen and (max-width: 600px) {
+      #Title {
+        content: url('public/Videos/headerpic SM.png');
+        height: 80%; /* Replace with the path to your new image */
+      }
+      #ct{
+      opacity: 0.35;
+     }
+}
+		</style>
+	</head>
+	<body>
+		<video id="video-background" autoplay muted loop>
+			<source src="public/Videos/VavelinkBGEdit.mp4" type="video/mp4">
+		  </video>
+		  <img id="Title" src="public/Videos/headerpic Normal.png" alt="Title Image">
+    <div id="ct">
+      <p>Developed by:<br> Mohammed Hasiem Malik</p>
+    </div>
+    <br id="b">
+		<div class="join-container">
+			<header class="join-header">
+				<h1>VaveLink ChatRooms</h1>
+			</header>
+			<main class="join-main">
+				<form action="chat.html">
+					<div class="form-control">
+						<label for="username">Username</label>
+						<input
+							type="text"
+							name="username"
+							id="username"
+							placeholder="Enter Your Name"
+							required
+						/>
+					</div>
+					<div class="form-control">
+						<div class="form-control">
+							<label for="room">Room</label>
+							<input
+							  type="text"
+							  name="room"
+							  id="room"
+							  placeholder="Enter Room Name"
+							  required
+							/>
+						  </div>
+					</div>
+					<button type="submit" class="btn">Join Chat</button>
+				</form>
+			</main>
+		</div>
+	</body>
+</html>

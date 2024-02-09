@@ -66,13 +66,6 @@ The homepage is designed to be crisp, clear, and easy to understand. It provides
 ![VoiceChatRooms Screenshot 1](./ss/Vavelink%20homepage.png)
 ![VoiceChatRooms Screenshot 2](./ss/Vavelink%20home%20mobile%20ss.png)
 
-
-
-
- ![VoiceChatRooms Screenshot 1](./ss/Vavelink%20homepage.png)
- ![VoiceChatRooms Screenshot 2](./ss/Vavelink%20home%20mobile%20ss.png)
-
-
 ## Usage
 
 Visit [VaveLink Website](https://mhasiemmalik.github.io/VavelinkHomeRepo/) to start using VaveLink immediately. Choose your preferred module and enter a room name to begin communication.

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VaveLink</title>
+  <link rel="icon" href="images/Vavelinkicon1.jpeg">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Averia+Sans+Libre:ital,wght@0,300;0,400;1,700&family=Marhey:wght@300;600;700&family=Montagu+Slab:opsz,wght@16..144,500&family=Noto+Serif:ital,wght@0,800;0,900;1,800;1,900&family=Pridi:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      font-family:'Montagu Slab';
+      font-weight: 500;
+    }
+
+    #video-background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+
+    #content {
+      position: relative;
+      z-index: 1;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    #Title {
+      height: 130px;
+      width: 100%;
+      opacity: 0.8; /* Set the opacity for transparency */
+      transition: opacity 0.5s ease; /* Add a smooth transition effect */
+    }
+
+    .transparent-container {
+      background-color: rgba(0, 0, 0, 0.01); /* Adjust the last value for transparency */
+      padding: 20px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+    
+    img{
+      height: 130px;
+      opacity: 0.94;
+    }
+
+    #INC {
+      display: flex;
+      justify-content: space-around; /* Adjust as needed */
+      flex-wrap: wrap;
+      overflow-y: auto; /* Enable vertical scrolling */
+      max-height: none; /* Set a max height for the container */
+    }
+
+    #ct{
+   position: fixed;
+   bottom: 10px;
+   right: 10px;
+   z-index: 9999;
+   font-size: 20px;
+   font-family: 'Averia Sans Libre', sans-serif;
+   color: #effb06;
+   opacity: 0.6;
+ } 
+ a{
+  color: black;
+ }
+   #k1{
+    display:None;
+   }
+ #PIC:hover{
+			  transform:scale(1.1);
+			  transition-duration:0.1s;
+        box-shadow: 0 0 10px rgb(253, 254, 252),
+                        0 0 15px rgb(254, 255, 254);
+        }  
+  button:hover{
+			  transform:scale(1.1);
+			  transition-duration:0.1s;
+        box-shadow: 0 0 5px #1911b3,
+                        0 0 25px #1911b3,
+                        0 0 30px #1911b3;
+        }         
+    @media only screen and (max-width: 740px) {
+      #Title {
+        content: url('images/headerpic SM.png');
+        height: 80%; /* Replace with the path to your new image */
+      }
+      #ct{
+      opacity: 0.1;
+     }
+     #INC {
+        display: block;
+        height: 520px; /* Remove max height for smaller screens */
+      }
+      #k{
+        display:None;
+      }
+      #k1{
+        display:block;
+      }
+    }
+    @media only screen and (max-width: 930px){
+      #b{
+        display: none;
+      }
+      img{
+      height: 80px;
+      opacity: 0.94;
+     }
+     #ct{
+      opacity: 0.3;
+     }
+     #k{
+        display:None;
+      }
+      #k1{
+        display:block;
+      }
+    } 
+    
+    @media only screen and (max-width: 300px) {
+      img {
+        padding-right: 20px;
+      }
+    }
+
+
+    #confirmationButtons {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: white;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      z-index: 9999;
+      
+    }
+
+    #confirmationButtons a {
+      display: block;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+   
+  <video id="video-background" autoplay muted loop>
+    <source src="Videos/Vavelink BGEdited Video.mp4" type="video/mp4">
+  </video>
+
+  <div id="content">
+    <img id="Title" src="images/headerpic Normal.png" alt="Title Image">
+    <p id="k">Note: If you face any problems while connecting over Mobile or PC, just leave 1 of the rooms and rejoin at a time for VideoChat Rooms & also Note that the WEBSOCKET SERVER consumes more Data than WEBRTM SERVER for message rooms as it is faster. Thank you for Visiting Vavelink</p>
+    <h3>Find the Chat and Video Rooms<h3>
+    <h3>Below</h3>
+    <div id="ct">
+      <p>Developed by:<br> Mohammed Hasiem Malik</p>
+    </div>
+   <div class="transparent-container" id="INC"> 
+    <div class="transparent-container">    
+      <a href="https://mhasiemmalik.github.io/VaveLink001/"><img src="images/1on1video1.png" style="height: 120px;" id="PIC" ></img>
+      </a>
+      <p>1 on 1 Video Chat Rooms</p>
+    </div>
+
+    <div class="transparent-container">
+      <a href="#" onclick="showConfirmationButtons()">
+        <img src="images/Vavelink Msg pic.png" style="height: 120px;" id="PIC">
+      </a>
+      <p>1 to Many Message Rooms</p>
+    </div>
+  
+    <div id="confirmationButtons" style="background-color: #14decad7;">
+      <p >Choose/Click Any 1 From Below Please</p>
+      <a href="#" onclick="redirectToServer('https://vavelinkchatroomsmalik-cmrec.koyeb.app/')">{1} WEBSOCKET SERVER (Traditional)</a><br>
+      <a href="#" onclick="redirectToServer('https://server2-url.com')">{2} WEBRTM SERVER (Recommended)</a><br>
+      <button style="background-color: #1911b3;border-radius: 15%;" onclick="hideConfirmationButtons()"><p style="color: #fff;">Cancel</p></button>
+    </div>
+
+    <div class="transparent-container">
+      <a href="https://mhasiemmalik.github.io/VaveLink-GroupMeets/"><img src="images/Groupchat1.png" style="height: 120px;" id="PIC"></img>
+      </a>
+        <p>Group Video Meeting Rooms</p>
+    </div>
+
+    <div class="transparent-container">
+      <a href="https://mhasiemmalik.github.io/Vavelink-VoiceRooms/"><img src="images/Voice Chat msg.png" style="height: 120px;" id="PIC"></img>
+      </a>
+        <p>1 to Many Voice Chat Rooms</p>
+    </div>
+    <p id="k1">Note: If you face any problems while connecting over Mobile or PC, just leave 1 of the rooms and rejoin at a time for VideoChat Rooms & also Note that the WEBSOCKET server consumes more Data than SDK Server for message rooms as it is faster. Thank you for Visiting Vavelink</p>
+    
+     </div>
+  </div>
+  <script>
+    function showConfirmationButtons() {
+      document.getElementById('confirmationButtons').style.display = 'block';
+    }
+
+    function hideConfirmationButtons() {
+      document.getElementById('confirmationButtons').style.display = 'none';
+    }
+
+    function redirectToServer(serverURL) {
+      window.location.href = serverURL;
+    }
+  </script>
+</body>
+</html>

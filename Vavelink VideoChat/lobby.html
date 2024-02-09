@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>VaveLink</title>
+    <link rel="icon" href="images/Vavelinkicon1.jpeg"/>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Averia+Sans+Libre:ital,wght@0,300;0,400;1,700&family=Marhey:wght@300;600;700&family=Montagu+Slab:opsz,wght@16..144,500&family=Noto+Serif:ital,wght@0,800;0,900;1,800;1,900&family=Pridi:wght@500&display=swap" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='lobby.css'>
+</head>
+<body>
+    <video id="video-background" autoplay muted loop>
+        <source src="images/VaveLinkCRooms.mp4" type="video/mp4">
+      </video>
+    <main id="lobby-container">
+        <div id="form-container">
+            <div id="form__container__header">
+                <h1 id="WT">VaveLink Videochat</h1>
+                <h1 id="WT1">VaveLink </h1><br>
+                <h1 id="WT1">Videochat</h1><br>
+                <p> Join or Create a Room</p>
+            </div>
+
+            <div id="form__content__wrapper">
+                <form id="join-form">
+                    <input type="text" name="invite_link" required/>
+                    <input type="submit" value="Join Room" id="X" />
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <div id="ct">
+        <p>Developed by:<br> Mohammed Hasiem Malik</p>
+    </div>
+    
+</body>
+
+<script>
+    let form = document.getElementById('join-form')
+
+    form.addEventListener('submit', (e) => {
+        e.preventDefault()
+        let inviteCode = e.target.invite_link.value
+        window.location = `index.html?room=${inviteCode}` 
+    })
+</script>
+
+</html>

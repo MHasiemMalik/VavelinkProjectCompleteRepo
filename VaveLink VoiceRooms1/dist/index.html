@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon"  href="/assets/Vavelinkicon1-OzYHMhY0.jpeg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Averia+Sans+Libre:ital,wght@0,300;0,400;1,700&family=Marhey:wght@300;600;700&family=Montagu+Slab:opsz,wght@16..144,500&family=Noto+Serif:ital,wght@0,800;0,900;1,800;1,900&family=Pridi:wght@500&display=swap" rel="stylesheet">
+    <title>Vavelink VoiceRooms</title>
+    <script type="module" crossorigin src="/assets/index-2CuCwWUc.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-18BrRgGY.css">
+  </head>
+  <body>
+    <video id="video-background" autoplay muted loop>
+      <source src="/assets/Vavelink Lime BG-kkhutkRf.mp4" type="video/mp4">
+    </video>
+    <div id="ct">
+      <p>Developed by:<br> Mohammed Hasiem Malik</p>
+    </div>
+  
+    <div id="container">
+      <div id="form__container__header">
+        <h1 id="WT">VaveLink VoiceChat</h1>
+        <h1 id="WT1">VaveLink </h1><br>
+        <h1 id="WT1">VoiceChat</h1><br>
+        <h5> Join or Create a Room</h5>
+      </div>
+
+        <div id="room-header">
+
+          <h1 id="room-name"></h1>
+
+          <div id="room-header-controls">
+            <img id="mic-icon" class="control-icon" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20class='feather%20feather-mic-off'%3e%3cline%20x1='1'%20y1='1'%20x2='23'%20y2='23'%3e%3c/line%3e%3cpath%20d='M9%209v3a3%203%200%200%200%205.12%202.12M15%209.34V4a3%203%200%200%200-5.94-.6'%3e%3c/path%3e%3cpath%20d='M17%2016.95A7%207%200%200%201%205%2012v-2m14%200v2a7%207%200%200%201-.11%201.23'%3e%3c/path%3e%3cline%20x1='12'%20y1='19'%20x2='12'%20y2='23'%3e%3c/line%3e%3cline%20x1='8'%20y1='23'%20x2='16'%20y2='23'%3e%3c/line%3e%3c/svg%3e" />
+            <img id="leave-icon" class="control-icon1" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='currentColor'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'%20class='feather%20feather-log-out'%3e%3cpath%20d='M9%2021H5a2%202%200%200%201-2-2V5a2%202%200%200%201%202-2h4'%3e%3c/path%3e%3cpolyline%20points='16%2017%2021%2012%2016%207'%3e%3c/polyline%3e%3cline%20x1='21'%20y1='12'%20x2='9'%20y2='12'%3e%3c/line%3e%3c/svg%3e" />
+          </div>
+        </div>
+    
+        <form id="form">
+          <div id="form-fields">
+              <h3>Display Name:</h3>
+              <input required name="displayname" type="text" placeholder="Enter Your Name"/>
+      
+              <h3>Room Name:</h3>
+              <input required name="roomname" type="text" placeholder="Enter Room Name"/>
+      
+              <input name="username" id="X" type="submit" value="Enter Room"/>
+          </div>
+      </form>
+    
+        <div id="members">
+    
+        </div>
+    </div>
+    <script src='agora-rtm-sdk-1.4.4.js'></script>
+  </body>
+</html>

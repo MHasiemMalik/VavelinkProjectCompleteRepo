@@ -2,6 +2,8 @@
 Visite the site here : [VaveLink Website](https://mhasiemmalik.github.io/VavelinkHomeRepo/)
 ## Description
 
+![Vavelink Screenshot ](./ss/vavelink%20gif.gif)
+
 VaveLink is a versatile web application built on WebRTC, Socket.IO, and Agora SDK, offering seamless communication via video, voice, and messages. With a focus on flexibility, privacy, and quality, VaveLink simplifies communication by enabling users to create rooms and connect with others without the need of mobile numbers, email addresses, or credentials. Users can directly enter a room name, whether created by themselves or others, and initiate communication instantly within their browser and network on a single electronic device.
 
 ### Modules

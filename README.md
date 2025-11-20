@@ -14,7 +14,7 @@ VaveLink is a versatile web application built on WebRTC, Socket.IO, and Agora SD
     
     ![VideoChatRooms Screenshot 1](./ss/Vavelink%20Video%20chat.png)
     ![VideoChatRooms Screenshot 2](./ss/Vavelink%20Video%20on%20Mobile%20ss.png)
-    [Visite the Module here](https://mhasiemmalik.github.io/VaveLink001/)
+    [Visite the Module here](https://vavelinkvideonew.vercel.app/)
 
 3. **VaveLink MessageRooms**
 
@@ -23,8 +23,9 @@ VaveLink is a versatile web application built on WebRTC, Socket.IO, and Agora SD
     ![MessageRooms Screenshot 1](./ss/Vavelink%20Message%20ss.png)
     ![MessageRooms Screenshot 2](./ss/VaveLink%20message%20ss%20(2).png)
     ![MessageRooms Screenshot 2](./ss/Vavelink%20Chatrooms.png)
+    [Visite the Module here](https://vavelinkchatroom2.vercel.app/)
 
-4. **VaveLink GroupMeets**
+5. **VaveLink GroupMeets**
 
     The VaveLink GroupMeets module focuses on video conferencing, chat, and screen sharing abilities. It allows two or more people to conduct meetings or conferences without any validations or verifications. Users can directly enter their name and room ID to join the conference with mic, video, and screen toggle options. Designed by Agora SDK files like Agora RTM and RTC, the module ensures seamless communication.
      
@@ -38,7 +39,7 @@ VaveLink is a versatile web application built on WebRTC, Socket.IO, and Agora SD
      
     ![VoiceChatRooms Screenshot 1](./ss/Vavelink%20Voice%20ss.png)
     ![VoiceChatRooms Screenshot 2](./ss/Vavelink%20Voice%20mobile%20ss.png)
-   [Visite the Module here](https://mhasiemmalik.github.io/Vavelink-VoiceRooms/)
+    [Visite the Module here](https://vavelinkvoicerooms.vercel.app/)
 
 ## Features
 1} **High flexibility and privacy:**
